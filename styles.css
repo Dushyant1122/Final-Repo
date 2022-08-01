@@ -1,13 +1,11 @@
 body{
-    background-color: orangered;
+    background-color: black;
+    color: white;
 }
 .head1{
     font-weight: bolder;
     font-size: 50px;
-}
-#btn12{
-    color: black;
-}
+    }
     .shadowBtn{
         width: 120px;
         height: 60px;
@@ -39,33 +37,3 @@ body{
         background: white;
         top: 70px;
     }
-    #second{
-        border: 2px solid white;
-        padding : 12px;
-        width: 80px;
-        border-radius: 10px;
-        margin-left: 30%;
-        margin-top: 10px;
-    }
-    #third{
-        border: 2px solid white;
-        padding : 12px;
-        width: 80px;
-        border-radius: 10px;
-        margin-left: 0%;
-    }
-    #forth{
-        border: 2px solid white;
-        padding : 12px;
-        width: 80px;
-        border-radius: 10px;
-        margin-left: 30%;
-    }
-    #fifth{
-        border: 2px solid white;
-        padding : 12px;
-        width: 80px;
-        border-radius: 10px;
-        margin-left: 0%;
-    }
-   
