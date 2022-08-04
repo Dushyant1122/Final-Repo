@@ -15,6 +15,7 @@ body{
         color: white;
         cursor: pointer;
         position: relative;
+        
     }
     .shadowBtn:hover{
         background-color: white;
@@ -36,4 +37,9 @@ body{
     .shadowBtn:hover::before{
         background: white;
         top: 70px;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-between;
     }
