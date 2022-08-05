@@ -1,46 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="discription" content="This is developed by Dushyant Jangid">
-    <meta name="discription" content="Web Development, full stack development, website design, application design, html, css, javascript, react, mongodb, best coaching in jaipur, expressjs, nodejs, frontend, backend, advance javascript. ">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="styleweb.css">
 </head>
 <body>
-    <section>
-    <div align="center">
-        <div data-text="Spider's Web Academy" class="head1">
-            Spider's Web Academy
-        </div>
+ <section class="showcase">
+    <header>
+        <h2 class="logo"> TRAVEL</h2>
+        <div class="toggle"></div>
+    </header>
+
+    <video src="video.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>    
+
+    <div class="text">
+        <h2>never stop</h2>
+        <h3>Exploring the World.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, recusandae quo? Accusantium nesciunt quis mollitia. Nulla porro tempora in itaque beatae incidunt natus deserunt, repellendus, quisquam assumenda ullam reiciendis odit esse commodi totam quas dolor veritatis iste velit. Adipisci a nostrum aliquid neque magni accusamus, deserunt, doloribus consectetur, harum qui at? Ad accusantium accusamus nisi, provident voluptas exercitationem? Suscipit labore corrupti nemo ea corporis fugit commodi! Placeat reiciendis eum voluptatibus ut. Culpa sint commodi sunt iusto facere laudantium facilis distinctio</p>
+        <a href="#">Explore</a>
     </div>
-        <p><b>1.</b> Spider's Web Academy provides full stack development solution. </p> 
-        <p><b>2.</b> It is managed by <b>Dushyant Jangid</b>. </p> 
-        <p><b>3.</b> Typically, <b><i>Spider's Web Academy</i></b> will help you build an app and/or website by engaging in the following activities: Ideating and freezing the framework, architecture, and navigation. Choosing a coding language to build your site and app (HTML, PHP, JavaScript, ASP, etc.) Coding and programming the back end. </p> 
-        <h3><u>Here our some projects hope you like them</u></h3>
-    </section>
-<div class="links">
-<button class="shadowBtn">
-        <a href="soil.html" target="_blank"> Save Soil</a>
-</button> 
-<div class="shadowBtn">
-    <a href="First Page.html" target="_blank"> Save Water</a>
-</div>
-<div class="shadowBtn">
-    <a href="list.html" target="_blank">List</a>
-</div>
-<div class="shadowBtn">
-    <a href="Form+table.html" target="_blank">Form</a>
-</div>
-<div class="shadowBtn">
-    <a href="box.html" target="_blank">box</a>
-</div>
-<div class="shadowBtn">
-    <a href="container.html" target="_blank">Grid</a>
-</div>
-<div class="shadowBtn">
-    <a href="website.html" target="_blank">Website</a>
-</div>
-</div>
+    <ul class="social">
+        <li><a href="https://www.facebook.com/DushyantJangid26850"><img src="images/fb.png" alt="Facebook"></a></li>
+        <li><a href="https://www.instagram.com/dushyant_26850/"><img src="images/insta.png" alt="Instagram"></a></li>
+        <li><a href="https://twitter.com/DushyantJangid9"><img src="images/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.linkedin.com/in/dushyant-jangid-221495231/"><img src="images/linkedin.png" alt="linkedin"></a></li>
+
+    </ul>
+
+ </section>   
+ <div class="menu">
+    <ul>
+        <li><a href="soil.html" target="_blank">Save Soil</a></li>
+        <li><a href="First Page.html" target="_blank">Save Water</a></li>
+        <li><a href="list.html" target="_blank">List</a></li>
+        <li><a href="Form+table.html" target="_blank">Form</a></li>
+        <li><a href="box.html" target="_blank">Box</a></li>
+        <li><a href="grid.html" target="_blank">Grid</a></li>
+        <li><a href="Form+table.html" target="_blank">spider</a></li>
+    </ul>
+ </div>
+ <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')    
+        showcase.classList.toggle('active')    
+    })
+ </script>
 </body>
 </html>
